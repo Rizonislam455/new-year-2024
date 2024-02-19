@@ -5,6 +5,10 @@ body {
 
 }
 
+main {
+    max-width: 1320px;
+}
+
 .header {
     width: 1320px;
     height: 600px;
@@ -26,8 +30,7 @@ body {
 
 
 .categories {
-    width: 1320px;
-    height: 600px;
+
     justify-content: center;
     text-align: center;
     padding-left: 150px;
@@ -43,12 +46,13 @@ body {
 }
 
 .midnight-party {
-    width: 1320px;
-    height: 600px;
-    background-image: url("../images/Vectorrr.png");
-    background-repeat: no-repeat;
+
     margin-top: 150px;
     margin-left: 150px;
+    border-radius: 10px;
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+
 }
 
 .party-title {
@@ -69,9 +73,32 @@ body {
 }
 
 .primary-button {
-    padding: 20px 25px;
+    padding: 10px 15px;
     font-size: 30px;
     color: white;
     background-color: black;
+    border-radius: 10px;
+}
+
+.join-us {
+    padding: 130px;
+    border-radius: 10px;
+    background: #dbb1b1;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.join-us-title {
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+.join-us-button {
+    padding: 10px 15px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(184, 13, 13);
     border-radius: 10px;
 }
