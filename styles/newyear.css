@@ -6,10 +6,11 @@ body {
 
 }
 
-
 main {
     max-width: 1320px;
-    height: 600px;
+
+
+
 }
 
 .header {
@@ -179,4 +180,74 @@ main {
 .Portfolio-img-6:hover {
     transform: scale(1.2);
 
+}
+
+/* Subscribe section style */
+.Subscriber {
+    padding: 120px 150px;
+    border-radius: 10px;
+    margin-top: 550px;
+    margin-left: 150px;
+    background-color: #dbb1b1;
+
+
+
+}
+
+.Subscriber-title {
+    text-align: center;
+
+}
+
+.Subscriber-title h1 {
+    font-size: 50px;
+}
+
+.subscribe-button {
+    padding: 20px 50px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(170, 21, 21);
+    border-radius: 10px;
+
+
+}
+
+/* footer section styles */
+.footer-info {
+    width: 1140px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: black;
+
+}
+
+.footer-info-title {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.info-sub-title {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    width: 850px;
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.footer-unsubscribe {
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
