@@ -3,10 +3,13 @@ body {
     font-family: 'Crimson Pro', serif;
 
 
+
 }
+
 
 main {
     max-width: 1320px;
+    height: 600px;
 }
 
 .header {
@@ -101,4 +104,79 @@ main {
     color: white;
     background-color: rgb(184, 13, 13);
     border-radius: 10px;
+}
+
+/* new best offer */
+.new-best-offer {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.best-offer {
+    display: flex;
+    padding-left: 150px;
+}
+
+.best-offer h3 {
+    color: red;
+
+}
+
+.best-offer h1 {
+    font-size: 30px;
+}
+
+.year-offer {
+    color: rgb(238, 13, 13);
+    font-size: 40px;
+}
+
+/* portfolio styles */
+.Portfolio {
+    width: 1320px;
+    height: 600px;
+    justify-content: center;
+    padding-left: 150px;
+    position: relative;
+
+
+}
+
+.Portfolio-title h4 {
+    color: red;
+}
+
+.Portfolio-title h1 {
+    font-size: 40px;
+}
+
+/* hover style */
+.Portfolio-img-1:hover {
+    transform: scale(1.2);
+
+}
+
+.Portfolio-img-2:hover {
+    transform: scale(1.2);
+
+}
+
+.Portfolio-img-3:hover {
+    transform: scale(1.2);
+
+}
+
+.Portfolio-img-4:hover {
+    transform: scale(1.2);
+
+}
+
+.Portfolio-img-5:hover {
+    transform: scale(1.2);
+
+}
+
+.Portfolio-img-6:hover {
+    transform: scale(1.2);
+
 }
